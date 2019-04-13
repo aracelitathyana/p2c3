@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="ejercicio2.css">
+</head>
+<body>
+    <p class="tx-color tx-titulo tx-subrayar ">Este es un ejemplo</p>
+    <input type="text" name="" id="txtnombre" placeholder="Introduce un nombre">
+    <br>
+    <input type="text" name="" id="num1" placeholder="Introduce un numero">
+    <br>
+    <input type="text" name="" id="num2" placeholder="Introduce un numero">
+    <button id="btnsumar" onclick="sumar()">SUMAR</button>
+
+    <script>
+        function sumar(){
+            var num1 = document.getElementById("num1").value;
+        var num2 = document.getElementById("num2").value;
+
+        var resultado= parseInt(num1)+parseInt(num2);
+        
+        alert(resultado);
+        }
+    </script>
+</body>
+</html>
